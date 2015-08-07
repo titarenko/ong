@@ -1,0 +1,36 @@
+{
+  "name": "ong",
+  "version": "0.1.0",
+  "description": "Oh no! Globals!",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- tests && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titarenko/ong.git"
+  },
+  "keywords": [
+    "globals",
+    "promise",
+    "bluebird",
+    "lodash",
+    "underscore"
+  ],
+  "author": "Constantin Titarenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titarenko/ong/issues"
+  },
+  "homepage": "https://github.com/titarenko/ong#readme",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.3",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
+}
