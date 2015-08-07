@@ -2,6 +2,10 @@
 
 Oh no! Globals!
 
+[![Build Status](https://secure.travis-ci.org/titarenko/ong.png?branch=master)](https://travis-ci.org/titarenko/ong) [![Coverage Status](https://coveralls.io/repos/titarenko/ong/badge.png)](https://coveralls.io/r/titarenko/ong)
+
+[![NPM](https://nodei.co/npm/ong.png?downloads=true&stars=true)](https://nodei.co/npm/ong/)
+
 # Installation
 
 ```bash
