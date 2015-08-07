@@ -10,6 +10,7 @@ Oh no! Globals!
 
 ```bash
 npm i ong --save
+```
 
 # Example
 
